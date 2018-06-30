@@ -3,15 +3,16 @@ import React, { Component } from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
 import './App.css';
 
-const Contact = (props) => {
+const Portfolio = (props) => {
   return (
-    <Route path="/contact" render={() =>
+    <Route path="/portfolio" render={() =>
       <div class='block'>
-        <h1>Contact me</h1>
+        <h1>Projects go here</h1>
         <br/>
 
+        <h1>Writings go here</h1>
         <p>
-          chris [dot] buggelli [at] gmail [dot] com
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur at nibh nec placerat. In pharetra est nec quam cursus, nec malesuada turpis pulvinar. Aliquam mattis, ipsum quis fringilla ornare, orci ante accumsan neque, vel tempus mauris urna vitae ipsum. Suspendisse et fringilla velit, eu aliquet nibh. Suspendisse luctus turpis vitae nisi aliquet, quis dictum sem molestie. Sed eu enim ut urna finibus convallis in at enim. Aliquam eu nunc porttitor, pretium purus quis, congue lorem. Donec elementum ut risus a venenatis. Sed molestie facilisis nulla, quis fermentum dolor tempor et. Integer quis scelerisque leo, vitae luctus enim. Phasellus euismod suscipit fringilla. Suspendisse sed porttitor quam.
         </p>
 
         <p>
@@ -23,4 +24,4 @@ const Contact = (props) => {
   )
 }
 
-export default Contact
+export default Portfolio
