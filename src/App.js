@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from './NavBar'
 import Container from './Container'
+import LowerThird from './LowerThird'
 import './App.css';
 
 class App extends Component {
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
         <NavBar />
         <Container />
+        <LowerThird />
       </div>
     );
   }
