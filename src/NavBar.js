@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Menu, Segment } from 'semantic-ui-react'
 
 export default class MenuExampleInvertedSecondary extends Component {
-  state = { activeItem: 'bio' }
+  state = { activeItem: 'about' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -11,19 +11,19 @@ export default class MenuExampleInvertedSecondary extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu pointing stackable secondary widths="5" size="massive">
+      <Menu text stackable secondary widths="6" size="massive">
         <Menu.Item name='chris'
           as={Link} to='/'
           active={activeItem === 'chris'}
           onClick={this.handleItemClick}>
           <h2 class="nav">Chris Buggelli</h2>
         </Menu.Item>
-        <Menu.Item name='bio'
+        <Menu.Item name='about'
           as={Link} to='/'
           position='right'
-          active={activeItem === 'bio'}
+          active={activeItem === 'about'}
           onClick={this.handleItemClick}>
-          <h2 class="nav">Bio</h2>
+          <h2 class="nav">About</h2>
         </Menu.Item>
         <Menu.Item
           name='portfolio'
@@ -31,6 +31,13 @@ export default class MenuExampleInvertedSecondary extends Component {
           active={activeItem === 'portfolio'}
           onClick={this.handleItemClick}>
           <h2 class="nav">Portfolio</h2>
+        </Menu.Item>
+        <Menu.Item
+          name='blog'
+          as={Link} to='/blog'
+          active={activeItem === 'blog'}
+          onClick={this.handleItemClick}>
+          <h2 class="nav">Blog</h2>
         </Menu.Item>
         <Menu.Item
           name='contact'

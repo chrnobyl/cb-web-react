@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 import { Link, Switch, Route } from 'react-router-dom'
 import './App.css';
 
-const Bio = (props) => {
+const About = (props) => {
   return (
     <Route path="/" render={() =>
       <div class='block'>
@@ -19,4 +19,4 @@ const Bio = (props) => {
   )
 }
 
-export default Bio
+export default About

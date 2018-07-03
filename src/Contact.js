@@ -11,7 +11,7 @@ const Contact = (props) => {
         <br/>
 
         <p>
-          chris [dot] buggelli [at] gmail [dot] com
+          chris [d o t] buggelli [a t] gmail [d o t] com
         </p>
 
         <p>
