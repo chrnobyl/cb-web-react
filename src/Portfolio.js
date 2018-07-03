@@ -9,8 +9,6 @@ const Portfolio = (props) => {
       <div class='block'>
         <h1>Projects go here</h1>
         <br/>
-
-        <h1>Writings go here</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur at nibh nec placerat. In pharetra est nec quam cursus, nec malesuada turpis pulvinar. Aliquam mattis, ipsum quis fringilla ornare, orci ante accumsan neque, vel tempus mauris urna vitae ipsum. Suspendisse et fringilla velit, eu aliquet nibh. Suspendisse luctus turpis vitae nisi aliquet, quis dictum sem molestie. Sed eu enim ut urna finibus convallis in at enim. Aliquam eu nunc porttitor, pretium purus quis, congue lorem. Donec elementum ut risus a venenatis. Sed molestie facilisis nulla, quis fermentum dolor tempor et. Integer quis scelerisque leo, vitae luctus enim. Phasellus euismod suscipit fringilla. Suspendisse sed porttitor quam.
         </p>

@@ -14,7 +14,6 @@ const Container = (props) => {
         <Route exact path = '/portfolio' render= {() =><Portfolio />}/>
         <Route exact path = '/contact' render= {() =><Contact />}/>
       </Switch>
-      <h6>© Chris Buggelli Productions, Inc.</h6>
     </div>
   )
 }
