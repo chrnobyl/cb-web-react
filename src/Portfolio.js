@@ -7,8 +7,7 @@ const Portfolio = (props) => {
   return (
     <Route path="/portfolio" render={() =>
       <div class='block'>
-        <h1>Projects go here</h1>
-        <br/>
+        <h1>Projects</h1>
 
         <h2><a href="https://wag-client.herokuapp.com/">Wag!</a></h2>
         <p>
@@ -27,7 +26,6 @@ const Portfolio = (props) => {
           React on Rails app that simulates a refrigerator. Add food to the fridge and be sure to eat it before it expires.
         </p>
         <h3>Github: <a href="https://github.com/chrnobyl/react-fridge-frontend">Client</a> | <a href="https://github.com/chrnobyl/react-fridge-api">API</a></h3>
-
       </div>
     }/>
 

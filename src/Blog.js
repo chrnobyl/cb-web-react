@@ -11,7 +11,7 @@ const Blog = (props) => {
         <br/>
 
         <p>
-          Blog posts go here
+          No blog posts yet. Check out my <a href="https://medium.com/@cjab" target="_blank">Medium</a> page for past blog posts.
         </p>
       </div>
     }/>

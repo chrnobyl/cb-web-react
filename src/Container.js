@@ -9,7 +9,7 @@ import './App.css';
 
 const Container = (props) => {
   return (
-    <div>
+    <div class="container">
       <Switch>
         <Route exact path = '/' render= {() =><About />}/>
         <Route exact path = '/portfolio' render= {() =><Portfolio />}/>
