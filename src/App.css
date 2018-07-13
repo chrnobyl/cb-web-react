@@ -34,6 +34,7 @@
   padding-right: 10em;
   padding-top: 2em;
   padding-bottom: 2em;
+  transition: height 500ms 0ms, opacity 500ms 500ms;
 }
 
 .about {

@@ -41,6 +41,12 @@ export default class MenuExampleInvertedSecondary extends Component {
           active={activeItem === 'contact'}
           onClick={this.handleItemClick}>
         </Menu.Item>
+        <Menu.Item
+          name='respacer'
+          as={Link} to='/respacer'
+          active={activeItem === 'respacer'}
+          onClick={this.handleItemClick}>
+        </Menu.Item>
       </Menu>
     )
   }
