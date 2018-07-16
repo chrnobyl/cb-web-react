@@ -54,17 +54,17 @@ export default class Blog extends Component {
    render() {
      return (
        <div className="block">
-         I blog on Medium from time to time.
+         <h1>I blog on Medium from time to time</h1>
          <br/>
-         <List>
+         <List divided size="huge">
            {this.state.posts.map((post, i) => (
-             <List.Item>
-               <img src={post.thumbnail} className="thumbnail" key={i}/>
-               <List.Content>
-                 <List.Header as='a'>{post.title}</List.Header>
-               {/* <h2 key={i}><a href={post.link}>{post.title}</a></h2> */}
-               </List.Content>
-             </List.Item>
+               <List.Item>
+                 <img src={post.thumbnail} className="thumbnail" key={i}/>
+                 <List.Content>
+                   <List.Header as='a'>{post.title}</List.Header>
+                 {/* <h2 key={i}><a href={post.link}>{post.title}</a></h2> */}
+                 </List.Content>
+               </List.Item>
              )
            )}
          </List>
