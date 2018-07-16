@@ -67,3 +67,8 @@
   padding-top: 2em;
   padding-bottom: 2em;
 }
+
+.thumbnail {
+  max-width: 100px;
+  max-height: 100px;
+}

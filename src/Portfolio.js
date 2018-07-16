@@ -1,12 +1,11 @@
-import React, { Component } from 'react'
-// import { Grid, Menu, Segment, Button, Modal } from 'semantic-ui-react'
-import { Link, Switch, Route } from 'react-router-dom'
+import React from 'react'
+import { Route } from 'react-router-dom'
 import './App.css';
 
 const Portfolio = (props) => {
   return (
     <Route path="/portfolio" render={() =>
-      <div class='block'>
+      <div className='block'>
         <h1>Projects</h1>
 
         <h2><a href="https://wag-client.herokuapp.com/">Wag!</a></h2>

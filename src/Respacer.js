@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Switch, Route } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import { Form, Button } from 'semantic-ui-react'
 import './App.css';
 
@@ -18,7 +18,7 @@ export default class Respacer extends Component {
 
   removeSpace(str, char) {
     let arr = []
-    let special = "./()?,!@#$%^&*+="
+    let special = "./()?,!@#$%^&*+='/"
       for (var i = 0; i < str.length; i++) {
           if (str[i] === " ") {
               arr.push(char)
@@ -47,8 +47,9 @@ export default class Respacer extends Component {
   render(){
     return (
       <Route path="/respacer" render={() =>
-        <div class="block">
+        <div className="block">
           <h1>Respacer</h1>
+          <h3>Replaces spaces and removes special symbols for more SQL-friendly column headers.</h3>
         <Form onSubmit={this.handleSubmit}>
           <Form.Field>
             <label>String to alter:</label>

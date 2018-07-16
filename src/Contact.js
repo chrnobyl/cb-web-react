@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Icon } from 'semantic-ui-react'
-import { Link, Switch, Route } from 'react-router-dom'
-import './App.css';
+import { Route } from 'react-router-dom'
+import './App.css'
 
 const Contact = (props) => {
   return (
     <Route path="/contact" render={() =>
-      <div class='block'>
+      <div className='block'>
         <h1>Contact me</h1>
         <br/>
 
