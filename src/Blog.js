@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Icon, Image, List } from 'semantic-ui-react'
+import { List, Image } from 'semantic-ui-react'
 // import { Route } from 'react-router-dom'
 import './App.css'
 
@@ -36,9 +36,6 @@ export default class Blog extends Component {
      this.getPosts()
    }
 
-
-   // fetchPosts = () => fetch(`https://medium.com/@cjab/latest?format=json`)
-
    getPosts() {
      return fetch(rssToJsonUrl)
      .then(res => res.json())
@@ -55,14 +52,14 @@ export default class Blog extends Component {
      return (
        <div className="block">
          <h1>I blog on Medium from time to time</h1>
-         <br/>
-         <List divided size="huge">
+         Check out some of my recent articles below:
+         <List celled size="medium">
            {this.state.posts.map((post, i) => (
                <List.Item>
-                 <img src={post.thumbnail} className="thumbnail" key={i}/>
-                 <List.Content>
-                   <List.Header as='a'>{post.title}</List.Header>
-                 {/* <h2 key={i}><a href={post.link}>{post.title}</a></h2> */}
+                 {/* <img src={post.thumbnail} alt="" className="thumbnail" key={i}/> */}
+                 <List.Content verticalAlign="middle">
+                   {/* {post.title} */}
+                 <a href={post.link}>{post.title}</a>
                  </List.Content>
                </List.Item>
              )

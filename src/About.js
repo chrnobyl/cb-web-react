@@ -6,7 +6,7 @@ const About = (props) => {
   return (
     <Route path="/" render={() =>
       <div>
-        <img src="github_profile.jpg" class="image"/>
+        <img src="github_profile.jpg" class="image" alt=""/>
         <div class="about">
           <h1>About me</h1>
           <br/>
@@ -23,8 +23,8 @@ const About = (props) => {
             Outside of work, I enjoy playing music, out-of-date video games, and geeking out over podcasts like Stuff You Should Know and Hardcore History.
           </p>
 
-          <p textAlign="right">
-            This website is built with React, Semantic UI React, and AWS.
+          <p>
+            This website is a work in progress. It is built with React, Semantic UI React, and AWS.
           </p>
         </div>
       </div>
