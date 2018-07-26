@@ -20,7 +20,7 @@ const About = (props) => {
           </p>
 
           <p>
-            Outside of work, I enjoy playing music, out-of-date video games, and geeking out over podcasts like Stuff You Should Know and Hardcore History.
+            Outside of work, I enjoy playing music, out-of-date video games, and listening to podcasts like Stuff You Should Know and Hardcore History.
           </p>
 
           <p>
