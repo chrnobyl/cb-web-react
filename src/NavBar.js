@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Menu } from 'semantic-ui-react'
 
-export default class MenuExampleInvertedSecondary extends Component {
+export default class NavBar extends Component {
   state = { activeItem: 'about' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
@@ -11,7 +11,7 @@ export default class MenuExampleInvertedSecondary extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu text stackable widths="7" size="massive">
+      <Menu text stackable widths="9" size="massive">
         <Menu.Item name='chrisBuggelli'
           as={Link} to='/'
           active={activeItem === 'chris'}

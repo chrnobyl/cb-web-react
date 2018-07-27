@@ -28,9 +28,15 @@ export default class Blog extends Component {
   constructor() {
     super()
     this.state = {
-      posts: []
+      posts: [],
+      visible: false
+
     }
   }
+
+  handleChange = (e, { name, value }) => this.setState({ [name]: value })
+
+  handleVisibility = () => this.setState({ visible: !this.state.visible })
 
    componentDidMount() {
      this.getPosts()
