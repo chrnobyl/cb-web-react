@@ -53,7 +53,7 @@ export default class Blog extends Component {
        <div className="block">
          <h1>I blog on Medium from time to time</h1>
          Check out some of my recent articles below:
-         <List celled size="medium">
+         <List divided relaxed size="medium">
            {this.state.posts.map((post, i) => (
                <List.Item>
                  {/* <img src={post.thumbnail} alt="" className="thumbnail" key={i}/> */}
