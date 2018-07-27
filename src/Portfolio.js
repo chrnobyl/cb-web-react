@@ -85,7 +85,7 @@ const Portfolio = (props) => {
         </List>
         <h3>Github: <a href="https://github.com/chrnobyl/react-fridge-frontend">Client</a> | <a href="https://github.com/chrnobyl/react-fridge-api">API</a></h3>
 
-        <h2><a href="http://react-fridge-client.s3-website-us-east-1.amazonaws.com/">Insta</a></h2>
+        <h2><a href="http://insta-production.us-east-1.elasticbeanstalk.com/login">Insta</a></h2>
         <p>
           Imgur/Instagram clone with a super creative title. Post pictures and leave comments.
         </p>
