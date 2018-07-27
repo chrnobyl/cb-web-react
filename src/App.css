@@ -40,11 +40,11 @@
 .about {
   text-align: left;
   font-size: large;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 2em;
+  padding-right: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
-  position: relative;
+  /* position: relative; */
 }
 
 .footer {
