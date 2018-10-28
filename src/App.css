@@ -171,7 +171,7 @@
 
   [class*="about"] {
     text-align: left;
-    font-size: 12pt;
+    font-size: 14pt;
     padding-left: 1em;
     padding-right: 0em;
     padding-top: 1em;
@@ -180,15 +180,15 @@
 
   [class*="block"] {
     text-align: left;
-    font-size: 12pt;
+    font-size: 14pt;
     padding-left: 1em;
     padding-right: 0em;
     padding-top: 1em;
     padding-bottom: 0em;
   }
 
-  h1 { font-size: 18pt !important; }
-  h2 { font-size: 16pt !important; }
-  h3 { font-size: 14pt !important; }
+  h1 { font-size: 20pt !important; }
+  h2 { font-size: 18pt !important; }
+  h3 { font-size: 16pt !important; }
 
 }
