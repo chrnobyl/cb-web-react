@@ -34,7 +34,6 @@
   padding-right: 10em;
   padding-top: 2em;
   padding-bottom: 2em;
-  /* transition: height 500ms 0ms, opacity 500ms 500ms; */
 }
 
 .about {
@@ -44,7 +43,6 @@
   padding-right: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
-  /* position: relative; */
 }
 
 .footer {
@@ -152,10 +150,6 @@
     padding-top: 1em;
     padding-bottom: 0em;
   }
-
-  /* [class*="heading"] {
-    font-size: 10pt;
-  } */
 
   h1 { font-size: 16pt !important; }
   h2 { font-size: 14pt !important; }
