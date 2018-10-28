@@ -4,7 +4,7 @@ import { Route } from 'react-router-dom'
 // import { Parallax, Background } from 'react-parallax'
 import './App.css'
 
-const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
+// const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
 
 export default class Contact extends Component {
   state = { visible: false }
@@ -24,7 +24,6 @@ export default class Contact extends Component {
         <Transition visible={visible} animation='fade' duration={800}>
           <div className='block'>
             <h1>Contact me</h1>
-            <br/>
 
             <p>
               chris [d o t] buggelli [a t] gmail [d o t] com

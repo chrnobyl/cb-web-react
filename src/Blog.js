@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { List, Image, Transition } from 'semantic-ui-react'
+import { List, Transition } from 'semantic-ui-react'
 import { Route } from 'react-router-dom'
 import './App.css'
 
-const awsMediumAPI = `https://sl3awpekph.execute-api.us-east-2.amazonaws.com/mediumStage`
+// const awsMediumAPI = `https://sl3awpekph.execute-api.us-east-2.amazonaws.com/mediumStage`
 const rssToJsonUrl = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@cjab`
 
 export default class Blog extends Component {
@@ -38,16 +38,16 @@ export default class Blog extends Component {
    render() {
 
      return (
-       <Route path="/blog" render={() =>
+       <Route path='/blog' render={() =>
          <Transition visible={this.state.visible} animation='fade' duration={800}>
-           <div className="block">
+           <div className='block'>
              <h1>I blog on Medium from time to time</h1>
              Check out some of my recent articles below:
-             <List divided relaxed size="medium">
+             <List divided relaxed size='medium'>
                {this.state.posts.map((post, i) => (
                    <List.Item>
                      {/* <img src={post.thumbnail} alt="" className="thumbnail" key={i}/> */}
-                     <List.Content verticalAlign="middle">
+                     <List.Content verticalAlign='middle'>
                        {/* {post.title} */}
                      <a href={post.link}>{post.title}</a>
                      </List.Content>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
-import { Grid, Image, Transition } from 'semantic-ui-react'
+import { Grid, Transition } from 'semantic-ui-react'
 // import { Parallax, Background } from 'react-parallax'
 import './App.css'
 
@@ -22,12 +22,12 @@ export default class About extends Component {
           {/* <Parallax bgImage='forest.jpg' strength={500}> */}
             <Grid>
               <Grid.Column width={6}>
-                <img src="github_profile.jpg" class="image" alt=""/>
+                <img src='github_profile.jpg' className='image' alt=''/>
               </Grid.Column>
               <Grid.Column width={8}>
-                <div class="about">
+                <div className='about'>
                   <h1>About me</h1>
-                  <br/>
+                  {/* <br/> */}
 
                   <p>
                     Hi, I'm Chris! I'm a software engineer who used to be a TV production guy. I began my career in software engineering because I enjoy building things and learning things. These days, I'm a full stack engineer at Say Yes to Education, where I develop a student growth tracking app in the .NET stack. It feels great to use my software engineering skills to help students get the assistance they need to be successful in school.
