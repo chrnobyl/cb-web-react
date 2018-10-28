@@ -101,7 +101,7 @@
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0em;
-    padding-bottom: 0em;
+    padding-bottom: 2em;
   }
 
   [class*="block"] {
@@ -110,8 +110,16 @@
     padding-left: 1em;
     padding-right: 0em;
     padding-top: 1em;
-    padding-bottom: 0em;
+    padding-bottom: 2em;
   }
+
+  /* [class*="footer"] {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50%;
+    width: 100%;
+  } */
 
   h1 { font-size: 16pt !important; }
   h2 { font-size: 14pt !important; }
