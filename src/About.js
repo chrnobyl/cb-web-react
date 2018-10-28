@@ -20,7 +20,7 @@ export default class About extends Component {
       <Route path="/" render={() =>
         <Transition visible={visible} animation='fade' duration={800}>
           {/* <Parallax bgImage='forest.jpg' strength={500}> */}
-            <Grid centered>
+            <Grid centered stackable>
               <Grid.Column width={6}>
                 <img src='github_profile.jpg' className='image' alt=''/>
               </Grid.Column>
