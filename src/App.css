@@ -121,6 +121,13 @@
     width: 100%;
   } */
 
+  [class*="container"] {
+     min-height: 400px;
+     margin-bottom: 100px;
+     padding-bottom: 100px;
+     clear: both;
+  }
+
   h1 { font-size: 16pt !important; }
   h2 { font-size: 14pt !important; }
   h3 { font-size: 12pt !important; }
@@ -161,6 +168,13 @@
     padding-right: 0em;
     padding-top: 1em;
     padding-bottom: 0em;
+  }
+
+  [class*="container"] {
+     min-height: 400px;
+     margin-bottom: 100px;
+     padding-bottom: 100px;
+     clear: both;
   }
 
   h1 { font-size: 16pt !important; }
