@@ -98,7 +98,7 @@ export default class Portfolio extends Component {
             </List>
             <h3>Github: <a href="https://github.com/chrnobyl/react-fridge-frontend">Client</a> | <a href="https://github.com/chrnobyl/react-fridge-api">API</a></h3>
 
-            <h2><a href="http://insta-production.us-east-1.elasticbeanstalk.com/login">Insta</a></h2>
+            <h2><a href="https://kinda-insta.herokuapp.com/login">Insta</a></h2>
             <p>
               Imgur/Instagram clone with a super creative title. Post pictures and leave comments. Built with Ruby on Rails.
             </p>
