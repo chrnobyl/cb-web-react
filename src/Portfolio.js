@@ -72,7 +72,7 @@ export default class Portfolio extends Component {
             </List>
             <h3>Github: <a href="https://github.com/chrnobyl/Rats-Crime-Fire">Client | API</a></h3>
 
-            <h2><a href="http://react-fridge-client.s3-website-us-east-1.amazonaws.com/">The Fridge</a></h2>
+            <h2><a href="https://fridge-draggable.herokuapp.com/">The Fridge</a></h2>
             <p>
               React on Rails app that simulates a refrigerator. Add food to the fridge and be sure to eat it before it expires.
             </p>
