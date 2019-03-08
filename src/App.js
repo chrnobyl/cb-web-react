@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import NavBar from './NavBar'
-import Container from './Container'
-import Footer from './Footer'
+import NavBar from './NavBar/NavBar'
+import Container from './Container/Container'
+import Footer from './Footer/Footer'
 import './App.css';
 
 class App extends Component {

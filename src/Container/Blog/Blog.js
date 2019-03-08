@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { List, Transition } from 'semantic-ui-react'
 import { Route } from 'react-router-dom'
-import './App.css'
+import '../../App.css'
 
 // const awsMediumAPI = `https://sl3awpekph.execute-api.us-east-2.amazonaws.com/mediumStage`
 const rssToJsonUrl = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@cjab`

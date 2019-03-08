@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import { Form, Button, Transition } from 'semantic-ui-react'
-import './App.css';
+import '../../App.css';
 
 export default class Respacer extends Component {
   constructor(){

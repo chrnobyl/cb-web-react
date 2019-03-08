@@ -1,11 +1,11 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
-import About from './About'
-import Portfolio from './Portfolio'
-import Blog from './Blog'
-import Contact from './Contact'
-import Respacer from './Respacer'
-import './App.css'
+import About from './About/About'
+import Portfolio from './Portfolio/Portfolio'
+import Blog from './Blog/Blog'
+import Contact from './Contact/Contact'
+import Respacer from './Respacer/Respacer'
+import '../App.css'
 
 const Container = (props) => {
   
