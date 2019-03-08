@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 import { Grid, Transition } from 'semantic-ui-react'
 // import { Parallax, Background } from 'react-parallax'
-import './App.css'
+import '../../App.css'
 
 export default class About extends Component {
   state = { visible: false }
