@@ -6,7 +6,7 @@ import { Route } from 'react-router-dom'
 import Success from './Success'
 import Failure from './Failure'
 // import { Parallax, Background } from 'react-parallax'
-import '../../App.css'
+// import '../../App.css'
 
 // const image1 = "https://images.unsplash.com/photo-1498092651296-641e88c3b057?auto=format&fit=crop&w=1778&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D";
 
