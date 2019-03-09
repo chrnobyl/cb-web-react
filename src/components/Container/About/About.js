@@ -30,7 +30,7 @@ export default class About extends Component {
                   {/* <br/> */}
 
                   <p>
-                    Hi, I'm Chris! I'm a software engineer who used to be a TV production guy. I began my career in software engineering because I enjoy building things and learning things. These days, I'm a full stack engineer at Say Yes to Education, where I develop a student growth tracking app in the .NET stack. It feels great to use my software engineering skills to help students get the assistance they need to be successful in school.
+                    Hi, I'm Chris! I'm a software engineer who used to be a TV production guy. I began my career in software engineering because I enjoy building things and learning things. These days, I'm a full stack engineer at Bauer Xcel Media, developing publishing tools with Ruby and React. I formerly worked at Say Yes to Education, where I helped build a student growth tracking app in the .NET stack.
                   </p>
 
                   <p>
