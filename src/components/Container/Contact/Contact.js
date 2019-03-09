@@ -120,7 +120,7 @@ export default class Contact extends Component {
       <Route path="/contact" render={() =>
         <Transition visible={visible} animation='fade' duration={800}>
           <div className={styles['contact-form']}>
-            <h1>Contact me</h1>
+            <h1>Contact me:</h1>
             <Form onSubmit={this.handleSubmit}>
               <Form.Input required label='Name:' type='text' name='senderName' value={this.state.senderName} onChange={this.handleChange}>
               </Form.Input>
@@ -133,11 +133,13 @@ export default class Contact extends Component {
             <Success visible={this.state.formSubmitted} />
             <Failure visible={this.state.formError} />
 
-            <p>
-              <Icon onClick={()=> window.open("https://www.linkedin.com/in/chrisbuggelli/", "_blank")} link name="linkedin" size="big" />
-              <Icon onClick={()=> window.open("https://medium.com/@cjab", "_blank")} link name="medium" size="big" />
-              <Icon onClick={()=> window.open("https://github.com/chrnobyl", "_blank")} link name="github" size="big" />
-            </p>
+            <h1>Get at me on social media:</h1>
+
+            <div className={styles['social']}>
+              <Icon onClick={()=> window.open("https://www.linkedin.com/in/chrisbuggelli/", "_blank")} link name="linkedin" size="huge" />
+              <Icon onClick={()=> window.open("https://medium.com/@cjab", "_blank")} link name="medium" size="huge" />
+              <Icon onClick={()=> window.open("https://github.com/chrnobyl", "_blank")} link name="github" size="huge" />
+            </div>
           </div>
         </Transition>
       }/>

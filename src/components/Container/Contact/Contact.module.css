@@ -1,14 +1,20 @@
 .contact-form {
-    text-align: left;
-    font-size: 24pt;
-    padding-left: 10em;
-    padding-right: 10em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    min-height: 80vh;
-    background: green;
-    /* font-family: var(--main-font); */
-  }
+  text-align: left;
+  font-size: large;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 80vh;
+  /* font-family: var(--main-font); */
+}
+
+.social {
+  text-align: left;
+  font-size: large;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
   
   @media (min-width: 481px) and (max-width: 812px) {
   
