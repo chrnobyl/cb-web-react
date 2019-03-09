@@ -1,6 +1,6 @@
 import React from 'react'
 import { Segment, Icon } from 'semantic-ui-react'
-import '../App.css';
+import '../../App.css';
 
 const Footer = (props) => {
   return (
