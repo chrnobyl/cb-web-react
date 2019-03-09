@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 import { List, Transition } from 'semantic-ui-react'
-import '../../App.css';
+import '../../../App.css';
 
 export default class Portfolio extends Component {
   state = { visible: false }

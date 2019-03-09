@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 import styles from './Contact.module.css'
 import { Icon, Transition, Button, Form } from 'semantic-ui-react'
 import { Route } from 'react-router-dom'

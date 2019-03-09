@@ -5,7 +5,8 @@ import Portfolio from './Portfolio/Portfolio'
 import Blog from './Blog/Blog'
 import Contact from './Contact/Contact'
 import Respacer from './Respacer/Respacer'
-import '../App.css'
+import '../../App.css'
+import PropTypes from 'prop-types'
 
 const Container = (props) => {
   
@@ -15,7 +16,7 @@ const Container = (props) => {
         <Route exact path = '/' render= {() =><About />}/>
         <Route exact path = '/portfolio' render= {() =><Portfolio />}/>
         <Route exact path = '/blog' render= {() =><Blog />}/>
-        <Route exact path = '/contact' render= {() =><Contact />}/>
+        <Route exact path = '/contact' render= {() =><Contact env={props.env} />}/>
         <Route exact path = '/respacer' render= {() =><Respacer />}/>
       </Switch>
     </div>
