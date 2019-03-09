@@ -1,10 +1,11 @@
 import React from 'react'
 import { Segment, Icon } from 'semantic-ui-react'
+import styles from './Footer.module.css'
 import '../../App.css';
 
 const Footer = (props) => {
   return (
-    <div className="footer">
+    <div className={styles.footer}>
       <Segment secondary textAlign="center" size="tiny">
         <Icon onClick={()=> window.open("https://www.linkedin.com/in/chrisbuggelli/", "_blank")} link name="linkedin" size="big" />
         <Icon onClick={()=> window.open("https://medium.com/@cjab", "_blank")} link name="medium" size="big" />
