@@ -6,7 +6,7 @@ import '../../App.css';
 const Footer = (props) => {
   return (
     <div className={styles.footer}>
-      <Segment secondary textAlign="center" size="tiny">
+      <Segment secondary textAlign="center" size="small">
         <Icon onClick={()=> window.open("https://www.linkedin.com/in/chrisbuggelli/", "_blank")} link name="linkedin" size="big" />
         <Icon onClick={()=> window.open("https://medium.com/@cjab", "_blank")} link name="medium" size="big" />
         <Icon onClick={()=> window.open("https://github.com/chrnobyl", "_blank")} link name="github" size="big" />

@@ -21,7 +21,7 @@ export default class About extends Component {
       <Route path="/" render={() =>
         <Transition visible={visible} animation='fade' duration={800}>
           {/* <Parallax bgImage='forest.jpg' strength={500}> */}
-            <Grid centered stackable>
+            <Grid className={styles['about-grid']} centered stackable>
               <Grid.Column width={10}>
                 <div className='about'>
                   <h1 style={{fontFamily: 'Quattrocento Sans'}}>About me</h1>
