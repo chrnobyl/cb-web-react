@@ -11,12 +11,7 @@ export default class NavBar extends Component {
     const { activeItem } = this.state
 
     return (
-      <Menu text stackable widths="9" size="massive">
-        <Menu.Item name='chrisBuggelli'
-          as={Link} to='/'
-          active={activeItem === 'chris'}
-          onClick={this.handleItemClick}>
-        </Menu.Item>
+      <Menu text stackable widths="5" size="massive">
         <Menu.Item name='about'
           as={Link} to='/'
           position='right'
