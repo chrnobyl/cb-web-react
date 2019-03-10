@@ -22,10 +22,7 @@ export default class About extends Component {
         <Transition visible={visible} animation='fade' duration={800}>
           {/* <Parallax bgImage='forest.jpg' strength={500}> */}
             <Grid centered stackable>
-              <Grid.Column width={7}>
-                <img src='github_profile.jpg' className='image' alt=''/>
-              </Grid.Column>
-              <Grid.Column width={9}>
+              <Grid.Column width={10}>
                 <div className='about'>
                   <h1 style={{fontFamily: 'Quattrocento Sans'}}>About me</h1>
                   <p>
@@ -44,6 +41,9 @@ export default class About extends Component {
                     This website is a work in progress. It is built with React, Semantic UI React, and AWS.
                   </p>
                 </div>
+              </Grid.Column>
+              <Grid.Column width={6}>
+                <img src='github_profile.jpg' className='image' alt=''/>
               </Grid.Column>
             </Grid>
         {/* </Parallax> */}
