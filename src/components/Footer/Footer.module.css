@@ -1,8 +1,18 @@
+/* for regular footer at bottom of page */
+
 .footer {
     position: relative;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
-    /* font-family: 'Comfortaa'; */
   }
+
+
+/* for sticky, ever-present footer */
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+} */
