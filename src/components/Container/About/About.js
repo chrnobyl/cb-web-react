@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import styles from './About.module.css'
 import { Route } from 'react-router-dom'
 import { Grid, Transition } from 'semantic-ui-react'
 // import { Parallax, Background } from 'react-parallax'
@@ -21,14 +22,12 @@ export default class About extends Component {
         <Transition visible={visible} animation='fade' duration={800}>
           {/* <Parallax bgImage='forest.jpg' strength={500}> */}
             <Grid centered stackable>
-              <Grid.Column width={6}>
+              <Grid.Column width={7}>
                 <img src='github_profile.jpg' className='image' alt=''/>
               </Grid.Column>
-              <Grid.Column width={8}>
+              <Grid.Column width={9}>
                 <div className='about'>
-                  <h1>About me</h1>
-                  {/* <br/> */}
-
+                  <h1 style={{fontFamily: 'Quattrocento Sans'}}>About me</h1>
                   <p>
                     Hi, I'm Chris! I'm a software engineer who used to be a TV production guy. I began my career in software engineering because I enjoy building things and learning things. These days, I'm a full stack engineer at Bauer Xcel Media, developing publishing tools with Ruby and React. I formerly worked at Say Yes to Education, where I helped build a student growth tracking app in the .NET stack.
                   </p>

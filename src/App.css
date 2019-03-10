@@ -27,6 +27,12 @@
   to { transform: rotate(360deg); }
 }
 
+:root {
+  --main-font: 'Quattrocento Sans';
+}
+
+@import url('https://fonts.googleapis.com/css?family=Assistant|Julius+Sans+One|Jura|Nanum+Myeongjo|Nunito+Sans|Questrial|Telex|Caudex|Roboto|Quattrocento+Sans');
+
 .block {
   text-align: left;
   font-size: large;
@@ -44,6 +50,7 @@
   padding-right: 2em;
   padding-top: 2em;
   padding-bottom: 2em;
+  min-height: 80vh;
 }
 
 .footer {
@@ -54,6 +61,7 @@
 }
 
 .container {
+  font-family: var(--main-font);
    min-height: 400px;
    margin-bottom: 100px;
    clear: both;
@@ -61,12 +69,13 @@
 
 .image {
   float: left;
-  border-radius: 50%;
-  padding-left: 2em;
+  /* border-radius: 50%; */
+  /* padding-left: 2em;
   padding-right: 2em;
   padding-top: 2em;
-  padding-bottom: 2em;
-  max-width: 650px;
+  padding-bottom: 2em; */
+  width: 100%;
+  /* max-width: 650px; */
 }
 
 .thumbnail {
