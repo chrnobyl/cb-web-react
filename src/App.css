@@ -63,7 +63,7 @@
 .container {
   font-family: var(--main-font);
    min-height: 400px;
-   margin-bottom: 100px;
+   /* margin-bottom: 100px; */
    clear: both;
 }
 
